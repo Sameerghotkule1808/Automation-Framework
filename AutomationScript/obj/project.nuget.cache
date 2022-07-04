@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "54Ev6AJUORczVpZm2QUiYb7KoVzrKG+KOXwxCn9X92DfOi+P9CZ0RFCRrHa31uDbIvm3dgw4vVfU2vyggcbfRw==",
+  "dgSpecHash": "BMdowgAH3sgLjUV8R1IguuCS3+tL7Fn8AK4he+KKwwu50PYyzTBBbaXM2s63Ua1Qepd56L0kXGtPG/7CEjKzGA==",
   "success": true,
   "projectFilePath": "C:\\pratctice\\AutomationScript\\AutomationScript\\AutomationScript.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.codecoverage\\17.2.0\\microsoft.codecoverage.17.2.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.net.sdk.functions\\4.1.1\\microsoft.net.sdk.functions.4.1.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.net.test.sdk\\17.2.0\\microsoft.net.test.sdk.17.2.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512",

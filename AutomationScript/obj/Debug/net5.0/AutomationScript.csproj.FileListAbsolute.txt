@@ -14,6 +14,7 @@ C:\pratctice\AutomationScript\AutomationScript\bin\Debug\net5.0\AutomationScript
 C:\pratctice\AutomationScript\AutomationScript\bin\Debug\net5.0\ref\AutomationScript.dll
 C:\pratctice\AutomationScript\AutomationScript\bin\Debug\net5.0\AutomationScript.pdb
 C:\pratctice\AutomationScript\AutomationScript\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\pratctice\AutomationScript\AutomationScript\bin\Debug\net5.0\Microsoft.Office.Interop.Excel.dll
 C:\pratctice\AutomationScript\AutomationScript\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
 C:\pratctice\AutomationScript\AutomationScript\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
 C:\pratctice\AutomationScript\AutomationScript\bin\Debug\net5.0\Microsoft.TestPlatform.CommunicationUtilities.dll
@@ -98,5 +99,3 @@ C:\pratctice\AutomationScript\AutomationScript\obj\Debug\net5.0\AutomationScript
 C:\pratctice\AutomationScript\AutomationScript\obj\Debug\net5.0\ref\AutomationScript.dll
 C:\pratctice\AutomationScript\AutomationScript\obj\Debug\net5.0\AutomationScript.pdb
 C:\pratctice\AutomationScript\AutomationScript\obj\Debug\net5.0\AutomationScript.genruntimeconfig.cache
-C:\pratctice\AutomationScript\AutomationScript\obj\Debug\net5.0\AutomationScript.csproj.AssemblyReference.cache
-C:\pratctice\AutomationScript\AutomationScript\bin\Debug\net5.0\Microsoft.Office.Interop.Excel.dll

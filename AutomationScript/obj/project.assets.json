@@ -15,6 +15,13 @@
           "build/netstandard1.0/Microsoft.CodeCoverage.targets": {}
         }
       },
+      "Microsoft.NET.Sdk.Functions/4.1.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.Sdk.Functions.props": {},
+          "build/Microsoft.NET.Sdk.Functions.targets": {}
+        }
+      },
       "Microsoft.NET.Test.Sdk/17.2.0": {
         "type": "package",
         "dependencies": {
@@ -444,6 +451,31 @@
         "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
         "microsoft.codecoverage.17.2.0.nupkg.sha512",
         "microsoft.codecoverage.nuspec"
+      ]
+    },
+    "Microsoft.NET.Sdk.Functions/4.1.1": {
+      "sha512": "G+b+bHtta7P8KPItSWygbVwQhwamU/WWmBoiv3snf8ScVYai3PbC1JSW3H22X+askqxhiw/Tx0yZKdE5oKMhRQ==",
+      "type": "package",
+      "path": "microsoft.net.sdk.functions/4.1.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/ExtensionsMetadataGeneratorVersion.props",
+        "build/Microsoft.NET.Sdk.Functions.Build.props",
+        "build/Microsoft.NET.Sdk.Functions.Build.targets",
+        "build/Microsoft.NET.Sdk.Functions.Publish.ZipDeploy.targets",
+        "build/Microsoft.NET.Sdk.Functions.Publish.props",
+        "build/Microsoft.NET.Sdk.Functions.Publish.targets",
+        "build/Microsoft.NET.Sdk.Functions.props",
+        "build/Microsoft.NET.Sdk.Functions.targets",
+        "microsoft.net.sdk.functions.4.1.1.nupkg.sha512",
+        "microsoft.net.sdk.functions.nuspec",
+        "tools/net6.0/Microsoft.NET.Sdk.Functions.Generator.dll",
+        "tools/net6.0/Microsoft.NET.Sdk.Functions.Generator.runtimeconfig.json",
+        "tools/net6.0/Microsoft.NET.Sdk.Functions.MSBuild.dll",
+        "tools/net6.0/Mono.Cecil.dll",
+        "tools/net6.0/Newtonsoft.Json.dll"
       ]
     },
     "Microsoft.NET.Test.Sdk/17.2.0": {
@@ -1884,6 +1916,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Microsoft.NET.Sdk.Functions >= 4.1.1",
       "Microsoft.NET.Test.Sdk >= 17.2.0",
       "Microsoft.Office.Interop.Excel >= 15.0.4795.1001",
       "Microsoft.TestPlatform >= 17.2.0",
@@ -1937,6 +1970,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.NET.Sdk.Functions": {
+            "target": "Package",
+            "version": "[4.1.1, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.2.0, )"

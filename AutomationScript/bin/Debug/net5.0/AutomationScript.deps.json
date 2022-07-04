@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "AutomationScript/1.0.0": {
         "dependencies": {
+          "Microsoft.NET.Sdk.Functions": "4.1.1",
           "Microsoft.NET.Test.Sdk": "17.2.0",
           "Microsoft.Office.Interop.Excel": "15.0.4795.1001",
           "Microsoft.TestPlatform": "17.2.0",
@@ -28,6 +29,7 @@
           }
         }
       },
+      "Microsoft.NET.Sdk.Functions/4.1.1": {},
       "Microsoft.NET.Test.Sdk/17.2.0": {
         "dependencies": {
           "Microsoft.CodeCoverage": "17.2.0",
@@ -351,6 +353,13 @@
       "sha512": "sha512-MsKhJmwIfHxNDbTIlgQy29UpWSWPpbZOQPhQ7xalRy+ABnl8/neFHZGzSP3XlpW2dKAXHTFrtIcKzW/kopY2Bg==",
       "path": "microsoft.codecoverage/17.2.0",
       "hashPath": "microsoft.codecoverage.17.2.0.nupkg.sha512"
+    },
+    "Microsoft.NET.Sdk.Functions/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G+b+bHtta7P8KPItSWygbVwQhwamU/WWmBoiv3snf8ScVYai3PbC1JSW3H22X+askqxhiw/Tx0yZKdE5oKMhRQ==",
+      "path": "microsoft.net.sdk.functions/4.1.1",
+      "hashPath": "microsoft.net.sdk.functions.4.1.1.nupkg.sha512"
     },
     "Microsoft.NET.Test.Sdk/17.2.0": {
       "type": "package",
