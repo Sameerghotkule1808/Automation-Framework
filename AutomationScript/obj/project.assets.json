@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    ".NETCoreApp,Version=v3.1": {
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -65,10 +65,10 @@
           "Newtonsoft.Json": "12.0.3"
         },
         "compile": {
-          "lib/net5.0/WebDriver.dll": {}
+          "lib/netstandard2.1/WebDriver.dll": {}
         },
         "runtime": {
-          "lib/net5.0/WebDriver.dll": {}
+          "lib/netstandard2.1/WebDriver.dll": {}
         }
       },
       "Selenium.WebDriver.ChromeDriver/103.0.5060.5300": {
@@ -965,7 +965,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    ".NETCoreApp,Version=v3.1": [
       "Microsoft.TestPlatform >= 17.2.0",
       "NUnit >= 3.13.3",
       "NUnit3TestAdapter >= 4.2.1",
@@ -995,15 +995,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -1014,8 +1014,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.TestPlatform": {
             "target": "Package",
